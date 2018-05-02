@@ -1,3 +1,4 @@
+/*
 import Counter from '../components/Counter';
 import * as actions from '../actions';
 import { connect } from 'react-redux';
@@ -12,11 +13,12 @@ const mapStateToProps = (state) => ({
   color: state.colorData.color,
   number: state.numberData.number
 });
-
+*/
 /*
 ** 액션 생성자를 사용하여 액션을 생성하고,
 ** 해당 액션을 dispatch하는 함수를 만든 후, 이를 props로 연결해 줍니다.
 */
+/*
 const mapDispatchToProps = (dispatch) => ({
   onIncrement: () => dispatch(actions.increment()),
   onDecrement: () => dispatch(actions.decrement()),
@@ -34,3 +36,4 @@ const CounterContainer = connect (
 )(Counter);
 
 export default CounterContainer;
+*/
